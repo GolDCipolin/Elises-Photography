@@ -1,0 +1,157 @@
+.top-card{
+    width: 19.9rem;
+    height: 9.9rem;
+    background-color: #F5EBC188;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+}
+
+.top-card__text{
+    font-family: var(--primary-font);
+    color: #000;
+    font-size: 9.6rem;
+    text-align: center;
+    position: relative;
+    top: -1rem;
+}
+
+.blog1,
+.blog2,
+.blog3{
+    width: 135rem;
+    height: 18.3rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    color: #000;
+    border-radius: 2.5rem;
+    margin: 0 auto;
+}
+
+.blog1-date,
+.blog2-date,
+.blog3-date{
+    width: 14.7rem;
+    height: 2.7rem;
+    background-color: #FFE37588;
+    border-radius: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: 59rem;
+    bottom: 17rem;
+}
+
+.blog1-text,
+.blog2-text,
+.blog3-text{
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+}
+
+.blog1-ad,
+.blog3-ad{
+    width: 110.6rem;
+    height: 75.9rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.blog1-ad{
+    margin-top: -1.9rem;
+    margin-bottom: 50rem;
+    margin-left: 13rem;
+}
+
+.blog1-ad__links,
+.blog3-ad__links{
+    position: relative;
+    max-width: 12%;
+    margin: 0 auto;
+    top: 75rem;
+    text-align: center;
+}
+
+.blog1-ad__link
+.blog3-ad__link{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 5px solid var(--tertiary-colour);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.blog1-ad__link--active
+.blog3-ad__link--active{
+    background-color: var(--tertiary-colour);
+}
+
+.blog2{
+    margin-top: 85rem;
+    margin-bottom: 15rem;
+}
+
+.blog3{
+    margin-bottom: 85rem;
+}
+
+.blog3-ad{
+    margin-top: -1.9rem;
+    margin-left: 13rem;
+}
+
+@media all and (max-width:360px) {
+    .blog1,
+    .blog2,
+    .blog3{
+        width: 30rem;
+        height: 30rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .blog1-text,
+    .blog2-text,
+    .blog3-text{
+        margin-left: -2rem;
+    }
+    .blog1-date{
+        margin-bottom: -100rem;
+    }
+    .blog2-date{
+        margin-bottom: -165rem
+    }
+    .blog3-date{
+        margin-bottom: -200rem;
+    }
+    .blog1-date,
+    .blog2-date,
+    .blog3-date{
+        position: absolute;
+        left: 0;
+        bottom: 265rem;
+        width: 9rem;
+        margin-left: 22rem;
+    }
+    .date1,
+    .date2,
+    .date3{
+        margin-top: 0.5rem;
+    }
+    .blog1-ad,
+    .blog3-ad{
+        margin: 0 auto;
+        object-fit: cover;
+        width: 30rem;
+        height: 30rem;
+        top: 2rem;
+    }
+    .blog2{
+        margin: 0 auto;
+        margin-top: 35rem;
+    }
+    .blog3{
+        margin-top: 5rem;
+        margin-bottom: 25rem;
+    }
+}

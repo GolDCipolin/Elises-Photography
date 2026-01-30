@@ -1,0 +1,171 @@
+.bigbox1,
+.bigbox2,
+.bigbox3,
+.bigbox4{
+    background-color: transparent;
+    width: 33.3rem;
+    height: 46.4rem;
+    border: 1px solid #000;
+    position: absolute;
+}
+
+
+.av1-box,
+.av2-box,
+.av3-box,
+.av4-box{
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    color: #000;
+    background-color: transparent;
+    width: 23.7rem;
+    height: 4.8rem;
+    border: 3px solid #000;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.img_1,
+.img_2,
+.img_3,
+.img_4{
+    width: 27.9rem;
+    height: 27.9rem;
+}
+
+.delete1,
+.delete2,
+.delete3,
+.delete4{
+    width: 5.7rem;
+    height: 5.7rem;
+    background-image: url(../images/delete.png);
+    background-size: cover;
+    outline: 2px solid #000;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 9rem;
+}
+
+.bigbox1{
+    margin-left: 9.6rem;
+}
+
+.img_1{
+    margin-left: 12.5rem;
+    margin-top: 2rem;
+}
+
+.bigbox2{
+    margin-left: 43.1rem;
+}
+
+.img_2{
+    margin-left: 5rem;
+}
+
+.bigbox3{
+    margin-left: 76.5rem;
+}
+
+.img_3{
+    margin-left: 5rem;
+}
+
+.bigbox4{
+    margin-left: 110rem;
+}
+
+.img_4{
+    margin-left: 5rem;
+}
+
+.av1,
+.av2,
+.av3,
+.av4{
+    position: relative;
+    bottom: 1rem;
+}
+
+.av1-box{
+    margin-left: 14rem;
+}
+
+.av2-box{
+    margin-left: 48rem;
+}
+
+.av3-box{
+    margin-left: 81.5rem;
+}
+
+.av4-box{
+    margin-left: 115rem;
+}
+
+
+
+.wishlist{
+    margin-bottom: 35rem;
+    margin-top: 5rem;
+}
+
+@media all and (max-width:360px) {
+    .bigbox1,
+    .bigbox2,
+    .bigbox3,
+    .bigbox4{
+        width: 23.3rem;
+        height: 36.4rem;
+        margin: 0 auto;
+        margin-left: 6rem;
+    }
+    .bigbox2{
+        margin-top: 36.5rem;
+    }
+    .bigbox3{
+        margin-top: 73.1rem;
+    }
+    .bigbox4{
+        margin-top: 109.6rem;
+    }
+    .img_1,
+    .img_2,
+    .img_3,
+    .img_4{
+        width: 17.9rem;
+        height: 17.9rem;
+        margin: 0 auto;
+        margin-left: 9rem;
+        margin-top: 3rem;
+    }
+    .img_2,
+    .img_3,
+    .img_4{
+        margin-top: 18rem;
+    }
+    .av1-box,
+    .av2-box,
+    .av3-box,
+    .av4-box{
+        width: 13.7rem;
+        height: 3.4rem;
+        font-size: 1.7rem;
+        margin: 0 auto;
+        margin-left: 11rem;
+    }
+    .delete1,
+    .delete2,
+    .delete3,
+    .delete4{
+        width: 4.7rem;
+        height: 4.7rem;
+        margin-left: 4.8rem;
+    }
+    .wishlist{
+        margin-left: -1rem;
+        margin-bottom: 20rem;
+    }
+}

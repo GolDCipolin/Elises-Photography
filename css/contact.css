@@ -1,0 +1,259 @@
+.top-card__text{
+    width: 52.2rem;
+    height: 9.9rem;
+    background-color: #F5EBC188;
+    vertical-align: top;
+    border-radius: 1.2rem;
+    font-family: var(--primary-font);
+    font-size: 9.6rem;
+    padding-bottom: 1rem;
+    color: var(--tertiary-colour);
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.text{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    font-size: 2.5rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: relative;
+    bottom: 5rem;
+    margin: 0;
+    width: 70rem;
+    top: -40px;
+    left: 20rem;
+}
+
+.side-card{
+    position: relative;
+    left: 115rem;
+    width: 25.1rem;
+    margin-top: 2rem;
+}
+
+.side-card__text{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    font-size: 2.5rem;
+    background-color: #F5EBC188;
+    width: 25.1rem;
+    height: 4.1rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.line{
+    width: 44rem;
+    height: 3px;
+    background-color: var(--tertiary-colour);
+    transform: rotate(90deg);
+    position: relative;
+    left: 76rem;
+    top: -10rem;
+}
+
+.phone-icon{
+    background-image: url(../images/phone\ icon.png);
+    width: 8.9rem;
+    height: 8.9rem;
+    position: relative;
+    left: 100rem;
+}
+
+.phone-text{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    width: 25.3rem;
+    height: 3rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: relative;
+    left: 11.5rem;
+    top: 2rem;
+}
+
+.email-icon{
+    background-image: url(../images/email\ icon.png);
+    width: 9.1rem;
+    height: 9.1rem;
+    position: relative;
+    margin-top: 10rem;
+    left: 100rem;
+    bottom: 5rem;
+}
+
+.email-text{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    width: 34.5rem;
+    height: 3rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: relative;
+    left: 11.5rem;
+    top: 3rem;
+}
+
+.insta-icon{
+    background-image: url(../images/insta\ icon.png);
+    width: 9.1rem;
+    height: 9.1rem;
+    position: absolute;
+    margin-bottom: 20rem;
+    left: 100rem;
+}
+
+.instagram-text{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    width: 34.5rem;
+    height: 3rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: absolute;
+    left: 11.5rem;
+    top: 1rem;
+}
+
+.contact{
+    color: Var(--tertiary-colour);
+    font-family: var(--primary-font);
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: relative;
+    top: -25rem;
+    text-align: left;
+}
+
+.contact__text-field{
+    width: 30rem;
+    height: 3rem;
+    font-size: 2.4rem;
+    border: 3px solid rgb(29, 15, 15);
+    background-color: transparent;
+    display:inline-block;
+    margin-bottom: 2rem;
+
+}
+
+.contact__text-field2{
+    width: 64rem;
+    height: 20rem;
+}
+
+.contact__name{
+    margin-left: 4.4rem;
+}
+
+.contact__message{
+    margin-left: 6rem;
+    position: relative;
+    top: -21rem;
+}
+
+.contact__submit{
+    width: 20.6rem;
+    height: 5.4rem;
+    font-family: var(--primary-font);
+    font-size: 3.6rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: #F5EBC1;
+    box-shadow: inset 0 0 10px #000000;
+    position: inherit;
+    left: 35rem;
+    margin-bottom: -50rem;
+}
+
+.nav--footer{
+    margin-top: -15rem;
+}
+
+@media all and (max-width:360px) {
+    .line{
+        width: 0;
+        height: 0;
+    }
+    .text{
+        left: 1rem;
+        font-size: 1.5rem;
+        width: 30rem;
+        text-align: center;
+        top: 2rem;
+    }
+    .contact{
+        margin: 0 auto;
+        width: 33rem;
+        margin-bottom: 40rem;
+        margin-top: 10rem;
+        top: -15rem;
+    }
+    .contact__name,
+    .contact__email,
+    .contact__message{
+        font-size: 1.8rem;
+        margin-left: -4rem;
+        margin: 0 auto;
+    }
+    .contact__text-field{
+        width: 20rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .contact__message{
+        position: absolute;
+        top: 14rem;
+    }
+    .contact__text-field2{
+        height: 100%;
+        margin-left: 9rem;
+    }
+    .contact__text-field-email{
+        width: 20rem;
+    }
+    .contact__email{
+        position: inherit;
+        font-size: 1.3rem;
+    }
+    .contact__submit{
+        left: 12rem;
+        width: 10.6rem;
+        height: 4rem;
+        font-size: 2.4rem;
+    }
+    .side-card{
+        position: absolute;
+        left: 7rem;
+        top: 50rem;
+    }
+    .side-card__text{
+        font-size: 2rem;
+        width: 20rem;
+        height: 3.1rem;
+    }
+    .side{
+        margin-left: -100rem;
+        position: inherit;
+        top: 40rem;
+        font-size: 1.5rem;
+        margin-bottom: -15rem;
+    }
+    .insta-icon,
+    .phone-icon,
+    .email-icon{
+        background-size: 5rem 5rem;
+        background-repeat: no-repeat;
+        margin-left: 5rem;
+    }
+    .email-text,
+    .phone-text,
+    .instagram-text{
+        left: 6rem;
+        top: 0.5rem;
+        width: 15rem;
+    }
+    .phone,
+    .email{
+        margin-bottom: -5rem;
+    }
+}

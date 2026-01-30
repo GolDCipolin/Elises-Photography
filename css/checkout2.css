@@ -1,0 +1,304 @@
+.top-text2{
+    font-family: var(--primary-font);
+    position: relative;
+    margin-left: -5rem;
+}
+
+.info2{
+    color: #000;
+    top: 5.5rem;
+    position: inherit;
+    left: 50rem;
+    width: 30rem;
+}
+
+.text-rest2{
+    color: #00000088;
+    margin-left: 79.5rem;
+}
+
+.big-box{
+    width: 48.3rem;
+    height: 25rem;
+    background-color: transparent;
+    outline: 3px solid #000;
+    position: relative;
+    left: 20rem;
+    top: 5rem;
+    font-family: var(--primary-font);
+    color: #000;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+}
+
+.contact,
+.ship{
+    font-size: 2.5rem;
+}
+
+.e_address,
+.d_address{
+    font-size: 2.4rem;
+}
+
+.change,
+.change2{
+    width: 10.3rem;
+    height: 4.5rem;
+    background-color: #C7B17588;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.change_text,
+.change_text2{
+    position: relative;
+    top: 0.5rem;
+}
+
+.line{
+    width: 44rem;
+    height: 3px;
+    background-color: var(--tertiary-colour);
+    position: relative;
+    bottom: 3rem;
+    left: 2rem;
+}
+
+.contact,
+.e_address{
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+
+.change{
+    position: relative;
+    left: 37rem;
+    bottom: 10rem;
+}
+
+.s_text{
+    position: relative;
+    left: 1rem;
+    bottom: 4rem;
+}
+
+.change2{
+    position: relative;
+    left: 36rem;
+    bottom: 11.5rem;
+}
+
+.free_d{
+    width: 48.3rem;
+    height: 7.7rem;
+    background-color: transparent;
+    outline: 3px solid #000;
+    font-family: var(--primary-font);
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    color: #000;
+    font-size: 3.6rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+    position: relative;
+    left: -4rem;
+}
+
+.free_text{
+    position: relative;
+    left: 8rem;
+    top: 1.5rem;
+}
+
+.free_delivery{
+    width: 4.1rem;
+    height: 4.1rem;
+    position: relative;
+    bottom: 6.5rem;
+    left: 1.5rem;
+}
+
+.photo__submit{
+    width: 25rem;
+    height: 5.4rem;
+    background-color: #F5EBC188;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    margin-left: 62rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.t_basket{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    font-size: 4.8rem;
+    position: absolute;
+    bottom: 30rem;
+    margin-left: 20rem;
+}
+
+.cost{
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 3.6rem;
+    position: absolute;
+    margin-left: 3rem;
+    bottom: 32rem;
+    text-decoration: underline black;
+}
+
+.basket{
+    width: 37rem;
+    height: 42.9rem;
+    border: 3px solid #000;
+    position: absolute;
+    margin-left: 90rem;
+    margin-top: -26rem;
+}
+
+.image1{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+.image2{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.image3{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.image4{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+@media all and (max-width:360px) {
+    .top-text{
+        margin: 0 auto;
+        position: absolute;
+        margin-left: -50rem;
+        font-size: 1.5rem;
+    }
+    .info{
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .text-rest{
+        text-align: center;
+        margin-top: 3.5rem;
+        margin-left: 68.5rem;
+    }
+    .big-box{
+        width: 30rem;
+        height: 21rem;
+        position: absolute;
+        left: 1.5rem;
+        margin-top: 15rem;
+    }
+    .contact,
+    .e_address,
+    .ship,
+    .d_address{
+        font-size: 2rem;
+        top: 0;
+    }
+    .line{
+        width: 26rem;
+    }
+    .change,
+    .change2{
+        left: 15rem;
+        width: 8rem;
+        height: 3.5rem;
+        font-size: 2rem;
+    }
+    .change{
+        left: 21rem;
+    }
+    .change2{
+        top: -9rem;
+        left: 20rem;
+    }
+    .basket{
+        width: 30rem;
+        height: 40rem;
+        margin: 0 auto;
+        margin-top: 30rem;
+        margin-left: 1.3rem;
+    }
+    .cost,
+    .t_basket{
+        font-size: 3rem;
+    }
+    .t_basket{
+        bottom: 32rem;
+        margin-left: 19rem;
+    }
+    .image1,
+    .image2,
+    .image3,
+    .image4{
+        width: 11rem;
+        height: 11rem;
+        margin-left: 2.5rem;
+    }
+
+
+
+
+
+
+
+    .free_d{
+        width: 30rem;
+        height: 6rem;
+        margin: 0 auto;
+        margin-top: 75rem;
+        margin-bottom: 5rem;
+        font-size: 2rem;
+    }
+    .free_text{
+        top: 2rem;
+        width: 24rem;
+    }
+    .free_delivery{
+        width: 3rem;
+        height: 3rem;
+        bottom: 3rem;
+    }
+    .photo__submit{
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        margin: 0 auto;
+        margin-left: 6.5rem;
+        margin-bottom: 5rem;
+    }
+}

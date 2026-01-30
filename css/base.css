@@ -1,0 +1,211 @@
+:root{
+    --primary-colour:#C4C4C4;
+    --primary-colour-trans:#C4C4C488;
+    /* alternative for rgba */
+    --pct:rgba(163, 214, 211, 0.5);
+    --secondary-colour:#ffffff;
+    --secondary-colour-trans:#ffffff88;
+    --tertiary-colour:#000000;
+    --tertiary-colour-trans:#00000088;
+    --secondary-primary-colour:#D1BCD1;
+    --secondary-primary-colour-trans:#D1BCD188;
+    --primary-font:Ruda;
+    --secondary-font:Roboto;
+    font-size: 62.5%;
+}
+
+@font-face{
+    font-family: Ruda;
+    src: url(fonts/Ruda-Regular.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: Ruda;
+    src: url(fonts/Ruda-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Thin.ttf);
+    font-weight: thin;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: lighter;
+    font-size: normal;
+}
+
+body{
+    background-color: #f5f0e6;  /* change for background #f5f0e6*/
+    font-family: var(--primary-colour);
+    color:var(--secondary-colour);
+    font-size: 2.5rem;
+}
+
+.wrapper{
+    position: relative;
+    max-width: 150rem;
+    margin: 0.25rem auto;
+}
+
+.nav{
+    font-family: var(--secondary-font);
+    background-color: var(--primary-colour-trans);
+    min-width: 107.5rem;
+    max-width: 150rem;
+    height: 10.1rem;
+    display: flow-root;
+    border-radius: 5rem;
+    position: relative;
+    text-align: center;
+    /* text-shadow: var(--tertiary-colour); */
+    font-size: 3.6rem;
+}
+
+.nav--footer{
+    font-family: var(--secondary-font);
+    background-color: var(--secondary-primary-colour-trans);
+    min-width: 107.5rem;
+    max-width: 70rem;
+    height: 10.1rem;
+    display: flow-root;
+    border-radius: 5rem;
+    position: relative;
+    text-align: center;
+    /* text-shadow: var(--tertiary-colour); */
+    font-size: 3.6rem;
+    margin: 0 auto;
+}
+
+
+.nav__link{
+    color: var(--tertiary-colour);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 6rem;
+    vertical-align: text-top;
+    margin-top: 3rem;
+    text-shadow: #00000088 1px 2px 1px;
+}
+
+.nav__link:hover{
+    color: none;
+}
+
+.nav__link--normal{
+    margin-top: 3rem;
+}
+
+.nav__link--footer{
+    font-family: var(--title-font);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.9rem;
+}
+
+
+.nav__link--logo{
+    float: right;
+    font-size: 4rem;
+    margin: 0.5rem 1.5rem 0.5rem 1rem;
+    text-align: right;
+}
+
+.nav__link--footer--normal{
+    margin-top: 3rem;
+    margin-left: 0 auto;
+}
+
+.nav__link--footer--photo{
+    margin-top: 2rem;
+}
+
+.nav__link--footer--contact{
+    margin: 0;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:360px){
+    .nav--main{
+        min-width: 1rem;
+        height: 13rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .nav__link--normal{
+        margin-left: 1rem;
+    }
+    .nav__link--footer{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .nav--footer{
+        min-width: 10rem;    
+        height: 13rem;
+    }
+    .nav-footer__bottom{
+        margin-right: 5rem;
+        margin-top: -0.1rem;
+    }
+}
+
+
+/* @media screen and (max-width:1388px){
+    .nav--main{
+        min-width: 20rem;
+        height: 17.1rem;
+    }
+
+    
+}
+
+@media screen and (max-width:763px){
+    .nav--main{
+        min-width: 5rem;
+        height: 25rem;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width:543px){
+    .nav--main{
+        min-width: 1rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width:429px){
+    .nav--main{
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width:360px){
+    .nav--main{
+        height: 52rem;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .nav--footer{
+        height: 15rem;
+        vertical-align: bottom;
+    }
+} */

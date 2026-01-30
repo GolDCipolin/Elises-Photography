@@ -1,0 +1,296 @@
+.small-card{
+    width: 55.274rem;
+    height: 27.7rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+}
+
+.s_sculpter{
+    margin-left: 1rem;
+}
+
+.small-card--sculpter,
+.small-card--painting,
+.small-card--wedding
+.small-card--photoshop{
+    object-fit: cover;
+    width: 55.274rem;
+    max-height: 27.7rem;
+}
+
+.s_wedding{
+    margin-left: 1rem;
+}
+
+.small-card--wedding{
+    height: 28rem;
+}
+
+.s_painting{
+    margin-left: 37rem;
+}
+
+.s_photoshop{
+    margin-left: 37rem;
+}
+
+.small-card__text-sculpter{
+    /* background-color: #c4c4c444; */
+    color: var(--secondary-colour);
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 4.5rem;
+    text-align: center;
+    height: 27.7rem;
+    position: relative;
+    bottom: 30rem;
+    left: 10rem;
+}
+
+.small-card__text-painting{
+    /* background-color: #c4c4c444; */
+    color: #fff;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    bottom: 32rem;
+    left: 1rem;
+}
+
+.small-card__text-photoshoot{
+    /* background-color: #c4c4c444; */
+    color: var(--tertiary-colour);
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 3.2rem;
+    text-align: center;
+    position: relative;
+    bottom: 30rem;
+}
+
+.small-card__text-photoshop{
+    background-color: #c4c4c488;
+    color: var(--tertiary-colour);
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+    height: 27.814rem;
+    width: 26.416rem;
+    position: relative;
+    bottom: 31.5rem;
+    left: 5rem;
+}
+
+.bottom-card{
+    background-color: #F5EBC188;
+    font-family: var(--primary-font);
+    width: 135rem;
+    height: 30.1rem;
+    font-size: 2.4rem;
+    display: inline-block;
+    margin-left: 12rem;
+    vertical-align: top;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+
+.bottom-card__title{
+    font-size: 3.5rem;
+    color: #637465;
+    text-align: center;
+    text-shadow: 2px 2px var(--tertiary-colour);
+    margin-top: 1rem;
+}
+
+.bottom-card__detail{
+    color: var(--tertiary-colour);
+    padding: 1rem;
+    margin: auto;
+    position: relative;
+    top: -3rem;
+    text-align: center;
+}
+
+
+
+
+.hexagon-text{
+    color: var(--tertiary-colour);
+    font-family: var(--primary-font);
+    text-align: center;
+    position: relative;
+    font-size: 6rem;
+    width: 94.5rem; 
+    height: 8.9rem;
+    background-color: #8FD798;
+    margin: 3.147rem 0;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 1rem;
+    margin-left: 20rem;
+}
+
+.huge-card{
+    background-color: #BCD1BE88;
+    width: 130.4rem;
+    height: 140.4rem;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.huge-card__img--left1{
+    object-fit: cover;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 15rem;
+    margin-left: -110rem;
+    width: 53.359rem;
+    height: 58.374rem;
+}
+
+.huge-card__img--right1{
+    width: 53.359rem;
+    height: 58.374rem;
+    position: absolute;
+    object-fit: cover;
+    background-position-y: -100px;
+    margin-left: -42rem;
+    margin-top: 15rem;
+}
+
+.huge-card__img--left2{
+    width: 53.359rem;
+    height: 58.374rem;
+    position: absolute;
+    object-fit: cover;
+    background-position-x: -170px;
+    margin-left: -110rem;
+    margin-top: 78rem;
+}
+
+.huge-card__img--right2{
+    width: 53.359rem;
+    height: 58.374rem;
+    position: absolute;
+    object-fit: cover;
+    background-position-y: -120px;
+    margin-left: -42rem;
+    margin-top: 78rem;
+}
+
+
+@media all and (max-width:768px) {
+    .small-card{
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-left: 16rem;
+    }
+    .bottom-card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
+    }
+    .huge-card{
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    .hexagon-text{
+        font-size: 4rem;
+        min-width: 92%;
+        width: 5.5rem; 
+        height: 5.9rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .huge-card__img{
+        width: 10rem;
+        height: 25rem;
+        margin: 0 auto;
+    }
+}
+
+
+@media all and (max-width:360px) {
+    .huge-card{
+        width: 100%;
+    }
+    .hexagon-text{
+        font-size: 2rem;
+        min-width: 80%;
+        width: 24.5rem; 
+        height: 5.9rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .huge-card__img--left1,
+    .huge-card__img--left2,
+    .huge-card__img--right1,
+    .huge-card__img--right2{
+        width: 23.3rem;
+        height: 28.3rem;
+        flex: 50%;
+        margin: 0 auto;
+        margin-left: -23.9rem;
+        margin-top: 11rem;
+    }
+    .huge-card__img--right1{
+        margin-top: 43rem;
+    }
+    .huge-card__img--left2{
+        margin-top: 75rem;
+    }
+    .huge-card__img--right2{
+        margin-top: 107rem;
+    }
+    .bottom-card{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        margin-top: 5rem;
+    }
+    .small-card,
+    .small-card--sculpter,
+    .small-card--painting,
+    .small-card--photoshop,
+    .small-card--wedding{
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 33.2rem;
+        height: 17.7rem;
+    }
+    .small-card__text-sculpter{
+        font-size: 3rem;
+        width: 13rem;
+        height: 10rem;
+        margin: 0 auto;
+        margin-top: 13rem;
+    }
+    .small-card__text-painting{
+        font-size: 2.5rem;
+        margin-top: 14rem;
+        margin: 0 auto;
+        width: 30rem;
+        margin-top: 14rem;
+    }
+    .small-card__text-photoshoot{
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+    .small-card__text-photoshop{
+        width: 16.4rem;
+        height: 17.8rem;
+        font-size: 2rem;
+        margin-left: -3rem;
+        margin-top: 13rem;
+    }
+}

@@ -1,0 +1,75 @@
+.main-ad{
+    position: static;
+    margin-top: -15rem;
+    width: 150rem;
+    height: 80rem;
+    background-image: url(../images/benjamin-combs-hiAdjnXZxl8-unsplash.jpg);
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: left;
+    box-shadow: 6px 6px 6px 0 var(--tertiary-colour-trans);
+}
+
+.main-ad__text{
+    position: absolute;
+    left: 80rem;
+    top: 20rem;
+    text-align: center;
+    color: var(--tertiary-colour);
+    font-size: 4.8rem;
+    font-family: var(--primary-font);
+    background-color: #C4C4C488;
+    border-radius: 12.5rem;
+    width: 70.9rem;
+    height: 20.1rem;
+    padding-top: 5rem;
+    margin-top: 20rem;
+    margin-left: -2rem;
+}
+
+
+.main-ad__links{
+    position: relative;
+    max-width: 12%;
+    margin: 0 auto;
+    top: 75rem;
+    text-align: center;
+}
+
+.main-ad__link{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 5px solid var(--tertiary-colour);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.main-ad__link--active{
+    background-color: var(--tertiary-colour);
+}
+
+@media all and (max-width:360px) {
+    .main-ad{
+        width: 100%;
+        height: 50rem;
+        background-position-x: center;
+    }
+    .main-ad__link{
+        width: 5px;
+        height: 5px;
+    }
+    .main-ad__links{
+        transform: rotate(270deg);
+        top: 43rem;
+    }
+    .main-ad__text{
+        width: 30rem;
+        height: 7rem;
+        left: 1.5rem;
+        font-size: 2rem;
+        padding-top: 0rem;
+        margin: 0 auto;
+        top: 35rem;
+    }
+}

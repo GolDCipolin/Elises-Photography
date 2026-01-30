@@ -1,0 +1,207 @@
+.basket{
+    width: 32rem;
+    height: 55rem;
+    border: 1px solid black;
+    margin: 0;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.checkout__submit{
+    width: 25.5rem;
+    height: 6rem;
+    font-family: var(--primary-font);
+    color: #000;
+    background-color: #F5EBC1;
+    outline: 1px solid #000;
+    font-size: 2.4rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.av1-box{
+    font-family: var(--primary-font);
+    font-size: 3.6rem;
+    color: #000;
+    border: 3px solid #000;
+    width: 23.7rem;
+    height: 4.8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.av1-box{
+    position: inherit;
+}
+
+.av1{
+    font-size: 2.4rem;
+    position: relative;
+    bottom: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.price1-box{
+    width: 9.7rem;
+    height: 4.8rem;
+    border: 3px solid #000;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    color: #000;
+    font-family: var(--primary-font);
+    margin-top: 2rem;
+}
+
+.price1{
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.img_1{
+    width: 27.9rem;
+    height: 27.9rem;
+    object-fit: cover;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
+}
+
+.price1-box{
+    right: 48.5rem;
+    top: 30rem;
+}
+
+.delete1,
+.delete2,
+.delete3,
+.delete4{
+    width: 5.7rem;
+    height: 5.7rem;
+    background-image: url(../images/delete.png);
+    background-size: cover;
+    outline: 2px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media all and (max-width:360px) {
+    .basket{
+        margin-left: -1rem;
+        margin-bottom: 110rem;
+        margin-top: 15rem;
+    }
+    .bigbox1,
+    .bigbox2,
+    .bigbox3,
+    .bigbox4{
+        width: 23.3rem;
+        height: 36.4rem;
+        margin: 0 auto;
+        margin-left: 6rem;
+        margin-top: -40rem;
+    }
+    .bigbox2{
+        margin-top: -3.5rem;
+    }
+    .bigbox3{
+        margin-top: 33.1rem;
+    }
+    .bigbox4{
+        margin-top: 69.7rem;
+    }
+    .img_1,
+    .img_2,
+    .img_3,
+    .img_4{
+        width: 17.9rem;
+        height: 17.9rem;
+        margin: 0 auto;
+        margin-left: 9rem;
+        margin-top: -9rem;
+    }
+    .img_2,
+    .img_3,
+    .img_4{
+        margin-top: 20rem;
+    }
+    .img_3,
+    .img_4{
+        margin-top: 50rem;
+    }
+    .img_4{
+        margin-top: 79rem;
+    }
+    .checkout__submit{
+        width: 15rem;
+        height: 6rem;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        margin-left: -52rem;
+        top: -1rem;
+    }
+    .av1-box,
+    .av2-box,
+    .av3-box,
+    .av4-box{
+        width: 5rem;
+        height: 3rem;
+        font-size: 2rem;
+        margin: 0 auto;
+        left: 1rem;
+        top: 15rem;
+    }
+    .av2-box{
+        top: 44rem;
+    }
+    .av3-box{
+        top: 74rem;
+    }
+    .av4-box{
+        top: 103rem;
+    }
+    .av1,
+    .av2,
+    .av3,
+    .av4{
+        top: -2rem;
+    }
+    .price1-box,
+    .price2-box,
+    .price3-box,
+    .price4-box{
+        font-size: 1.8rem;
+        width: 7rem;
+        height: 3rem;
+        margin: 0 auto;
+        left: 1rem;
+        top: 7rem;
+    }
+    .price2-box{
+        top: 36rem;
+    }
+    .price3-box{
+        top: 66rem;
+    }
+    .price4-box{
+        top: 95rem;
+    }
+    .delete1,
+    .delete2,
+    .delete3,
+    .delete4{
+        width: 4.7rem;
+        height: 4.7rem;
+    }
+    .delete1,
+    .delete2,
+    .delete3,
+    .delete4{
+        bottom: 3rem;
+    }
+}

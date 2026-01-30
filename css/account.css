@@ -1,0 +1,298 @@
+.about{
+    width: 40.1rem;
+    height: 32.3rem;
+    background: transparent;
+    outline: 1px solid #000;
+    font-family: var(--primary-font);
+    color: #000;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+}
+
+.pfp{
+    width: 16rem;
+    height: 20.9rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.name, 
+.username,
+.email,
+.password{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    text-align: right;
+    margin-right: 30rem;
+}
+
+.detail{
+    position: relative;
+    top: 5rem;
+}
+
+.t_name,
+.t_username,
+.t_email,
+.t_password{
+    width: 18.2rem;
+    height: 2rem;
+    border: 2px solid #000;
+    background-color: transparent;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    font-size: 1.4rem;
+    margin-left: 11rem;
+    margin-top: -4rem;
+}
+
+.edit{
+    width: 9.6rem;
+    height: 3.3rem;
+    background-color: transparent;
+    margin-left: 15rem;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.d{
+    width: 98.9rem;
+    height: 100%;
+    background: transparent;
+    outline: 1px solid #000;
+    margin-left: 50rem;
+    margin-top: -52rem;
+    color: #000;
+    font-family: var(--primary-font);
+    margin-top: -63.3rem;
+}
+
+.p{
+    width: 98.9rem;
+    height: 100%;
+    background: transparent;
+    outline: 1px solid #000;
+    color: #000;
+    font-family: var(--primary-font);
+    margin-left: 50rem;
+    margin-bottom: 45rem;
+}
+
+.d_img1,
+.p_img1{
+    width: 20.7rem;
+    height: 41.9rem;
+    background: transparent;
+    outline: 1px solid #000;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.p_img1{
+    margin-top: 0rem;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8{
+    width: 19.1rem;
+    height: 20.9rem;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+.d_title{
+    font-size: 6.4rem;
+    margin: 0 auto;
+    margin-left: 24rem;
+}
+
+.p_title{
+    font-size: 6.4rem;
+    margin-left: 24rem;
+}
+
+.view,
+.view2,
+.view3,
+.view4,
+.view5,
+.view6,
+.view7,
+.view8{
+    background: transparent;
+    height: 4rem;
+    width: 16rem;
+    outline: 1px solid black;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+}
+
+a.download{
+    margin-left: 2.3rem;
+    padding: 1rem 2.5rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: var(--tertiary-colour);
+}
+
+.price1,
+.price2,
+.price3,
+.price4,
+.price5,
+.price6,
+.price7,
+.price8{
+    height: 4rem;
+    width: 16rem;
+    background: transparent;
+    outline: 2px solid black;
+    text-align: center;
+    font-size: 3.6rem;
+    margin-left: 2.5rem;
+}
+
+.d_img1{
+    margin-left: 3rem;
+}
+
+.p_img1{
+    margin-left: 3rem;
+    margin-top: -2rem;
+}
+
+.logout{
+    background: transparent;
+    outline: 1px solid black;
+    width: 40.1rem;
+    height: 100%;
+    position: static;
+    margin-top: 10rem;
+}
+
+.logout_button{
+    height: 4rem;
+    width: 16rem;
+    outline: 1px solid black;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    background: transparent;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+
+.order_button{
+    height: 4rem;
+    width: 16rem;
+    outline: 1px solid black;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    background: transparent;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.book_button{
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+}
+
+@media all and (max-width:360px) {
+    .about{
+        width: 30rem;
+        height: 47rem;
+        margin-left: 2rem;
+    }
+    .pfp{
+        margin-left: 7rem;
+    }
+    .logout{
+        width: 20rem;
+        height: 6rem;
+        margin-left: 7rem;
+        top: 66rem;
+    }
+    .logout_button{
+        width: 10rem;
+        font-size: 2rem;
+        left: 5rem;
+        top: 1rem;
+    }
+    .d,
+    .p{
+        width: 30rem;
+        height: 135rem;
+        margin: 0 auto;
+        margin-top: 10rem;
+        margin-left: 2rem;
+    }
+    .p{
+        margin-bottom: 5rem;
+    }
+    .d_title,
+    .p_title{
+        margin: 0 auto;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .d_img1,
+    .d_img2,
+    .d_img3,
+    .d_img4,
+    .p_img1,
+    .p_img2,
+    .p_img3,
+    .p_img4{
+        width: 20.7rem;
+        height: 31.9rem;
+        margin: 0 auto;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8{
+        width: 15rem;
+        height: 15rem;
+        margin-left: 3rem;
+    }
+    .price1,
+    .price2,
+    .price3,
+    .price4,
+    .price5,
+    .price6,
+    .price7,
+    .price8{
+        width: 7rem;
+        height: 3rem;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .view,
+    .view2,
+    .view3,
+    .view4,
+    .view5,
+    .view6,
+    .view7,
+    .view8{
+        width: 8rem;
+        font-size: 2rem;
+        margin-left: 6.5rem;
+        margin-top: 5rem;
+    }
+}

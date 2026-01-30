@@ -1,0 +1,107 @@
+.register,
+.login{
+    display:inline-block;
+    width:500px;
+    vertical-align: top;
+    margin-top: 100px;
+    position: relative;
+    top: 5rem;
+}
+
+.login{
+    margin-top:200px;
+    margin-left: 30rem;
+}
+
+.register{
+    margin-left: 10rem;
+}
+
+.login__label,
+.register__label{
+    display:inline-block;
+    width: 130px;
+    text-align: right;
+    margin-right: 5px;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    font-weight: bold;
+}
+
+.login__text-field,
+.register__text-field{
+    width: 30rem;
+    height: 3rem;
+    border: 3px solid rgb(29, 15, 15);
+    background-color: transparent;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.register__label--pass2{
+    margin-top: -3rem;
+    padding-top:1.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.login__submit,
+.register__submit{
+    margin-left: 135px;
+    width: 25rem;
+    height: 5.4rem;
+    border: 1px solid #000;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    font-size: 3.6rem;
+    box-shadow: inset 0 0 5px #000;
+    position: relative;
+    left: 3rem;
+    top: -25rem;
+    margin-top: 25rem;
+    cursor: pointer;
+}
+
+.line{
+    width: 44rem;
+    height: 3px;
+    background-color: var(--tertiary-colour);
+    transform: rotate(90deg);
+    position: relative;
+    top: -40rem;
+    left: 55rem;
+}
+
+@media all and (max-width:360px) {
+    .line{
+        width: 0;
+        height: 0;
+    }
+    .register,
+    .login{
+        margin: 0 auto;
+        width: 33rem;
+    }
+    .register__label,
+    .login__label{
+        font-size: 1.8rem;
+        margin-left: -4rem;
+    }
+    .register__text-field,
+    .login__text-field{
+        width: 20rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .register__submit,
+    .login__submit{
+        left: -4rem;
+        width: 15rem;
+        height: 3.4rem;
+        font-size: 2.4rem;
+    }
+    .login{
+        margin-top: -20rem;
+        margin-bottom: -10rem;
+    }
+}

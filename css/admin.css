@@ -1,0 +1,175 @@
+.tbl-full{
+    width: 100%;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+td{
+    width: 50rem;
+    height: 10rem;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;
+}
+
+.img{
+    width: 30rem;
+    height: 30rem;
+}
+
+.table{
+    position: relative;
+    margin-top: 5rem;
+    font-family: var(--secondary-font);
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    width: 50rem;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1e90ff;
+    border-radius: 2rem;
+    border: 5px solid black;
+}
+
+.menu{
+    text-decoration: none;
+    display: flow-root;
+    color:var(--tertiary-colour);
+
+}
+
+.menu:hover{
+    color:var(--primary-colour);
+}
+
+.top{
+    color:var(--tertiary-colour);
+    font-family: var(--secondary-font);
+    display: flow-root;
+    text-align: center;
+}
+
+.select{
+    text-align: center;
+    color:var(--tertiary-colour);
+    font-family: var(--secondary-font);
+    display: flow-root;
+    font-size: 2rem;
+}
+
+.sub{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.text{
+    color:var(--tertiary-colour);
+    font-family: var(--secondary-font);
+    position: absolute;
+    height: 2rem;
+}
+
+.form{
+    position: relative;
+    left: 60rem;
+}
+
+.uc{
+    width: 5rem;
+}
+
+.uci{
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.ad{
+    margin-left: 5rem;
+}
+
+.sa{
+    position: relative;
+    top: 5rem;
+    left: 9rem;
+    margin-left: 1rem;
+}
+
+.sum{
+    margin-bottom: 5rem;
+    height: 5rem;
+}
+
+.sale{
+    margin-top: 7rem;
+}
+
+.desc{
+    top: -3rem;
+}
+
+.up{
+    width: 20rem;
+}
+
+.upi{
+    position: relative;
+    left: -50rem;
+}
+
+.ci{
+    top: -3rem;
+}

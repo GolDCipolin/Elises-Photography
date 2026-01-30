@@ -1,0 +1,70 @@
+.top-text{
+    font-family: var(--primary-font);
+    position: relative;
+}
+
+.info{
+    color: #000;
+    top: 5.5rem;
+    position: inherit;
+    left: 50rem;
+    width: 55rem;
+}
+
+.box{
+    width: 92.5rem;
+    height: 27.4rem;
+    outline: 3px solid #000;
+    background-color: #F5EBC188;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+    margin-top: 20rem;
+}
+
+.title,
+.title2,
+.desc,
+.o_number{
+    font-family: var(--primary-font);
+    color: #000;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    text-align: center;
+    position: relative;
+}
+
+.title{
+    font-size: 4.8rem;
+}
+
+.title2,
+.desc{
+    font-size: 2.4rem;
+}
+
+.title2{
+    bottom: 4rem;
+}
+
+
+.o_number{
+    margin: 0 auto;
+    bottom: 5rem;
+}
+
+.desc{
+    bottom: 3rem;
+}
+
+@media all and (max-width:360px){
+    .info{
+        margin: 0 auto;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        position: absolute;
+        left: 0rem;
+    }
+    .box{
+        width: 100%;
+        height: 100%;
+    }
+}

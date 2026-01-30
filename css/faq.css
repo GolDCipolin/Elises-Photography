@@ -1,0 +1,311 @@
+.top-card__text{
+    width: 15.8rem;
+    height: 9.9rem;
+    background-color: #F5EBC188;
+    vertical-align: top;
+    margin-left: 69rem;
+    border-radius: 1.2rem;
+    font-family: var(--primary-font);
+    font-size: 9.6rem;
+    text-align: center;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: var(--tertiary-colour);
+    /* margin-top: 2rem; */
+}
+
+.firstqa{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #8fd798;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0 0 1rem 11rem;
+    bottom: 50rem;
+    margin-top: 2rem;
+}
+
+.firstq{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    border-left: #000000;
+}
+
+.firstq-text{
+    margin: 0;
+    margin-left: 15rem;
+    margin-top: -8rem;
+}
+
+
+.firstaq{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0;
+    margin-left: 11rem;
+    bottom: 5rem;
+}
+
+.firsta{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}
+
+.firsta-text{
+    margin-left: 15rem;
+    margin-top: -10rem;
+    font-size: 2.4rem;
+}
+
+.I,
+.I2,
+.I3,
+.I4{
+    width: 3px;
+    height: 88px;
+    background-color: var(--tertiary-colour);
+    margin-top: -6.5rem;
+    margin-left: 11rem;
+}
+
+.II,
+.II2,
+.II3,
+.II4{
+    width: 3px;
+    height: 88px;
+    background-color: var(--tertiary-colour);
+    margin-top: -11.5rem;
+    margin-left: 11rem;
+}
+
+.secondqa{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #8fd798;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0 0 1rem 11rem;
+    bottom: 50rem;
+    margin-top: 5rem;
+}
+
+.secondq{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    border-left: #000000;
+}
+
+.secondq-text{
+    margin: 0;
+    margin-left: 15rem;
+    margin-top: -8rem;
+}
+
+
+.secondaq{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0;
+    margin-left: 11rem;
+    bottom: 5rem;
+}
+
+.seconda{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}
+
+.seconda-text{
+    margin-left: 15rem;
+    margin-top: -10rem;
+    font-size: 2.4rem;
+}
+
+.thirdqa{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #8fd798;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0 0 1rem 11rem;
+    bottom: 50rem;
+    margin-top: 5rem;
+}
+
+.thirdq{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    border-left: #000000;
+}
+
+.thirdq-text{
+    margin: 0;
+    margin-left: 15rem;
+    margin-top: -8rem;
+}
+
+
+.thirdaq{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0;
+    margin-left: 11rem;
+    bottom: 5rem;
+}
+
+.thirda{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}
+
+.thirda-text{
+    margin-left: 15rem;
+    margin-top: -10rem;
+    font-size: 2.4rem;
+}
+
+.fourthqa{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #8fd798;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0 0 1rem 11rem;
+    bottom: 50rem;
+    margin-top: 5rem;
+}
+
+.fourthq{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    border-left: #000000;
+}
+
+.fourthq-text{
+    margin: 0;
+    margin-left: 15rem;
+    margin-top: -8rem;
+}
+
+
+.fourthaq{
+    width: 135rem;
+    height: 14.1rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    margin: 0;
+    margin-left: 11rem;
+    bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.fourtha{
+    font-size: 9.6rem;
+    margin: 0;
+    margin-left: 3rem;
+    padding-top: 1rem;
+}
+
+.fourtha-text{
+    margin-left: 15rem;
+    margin-top: -10rem;
+    font-size: 2.4rem;
+}
+
+.info{
+    margin-left: 5rem;
+    padding-right: 5rem;
+}
+
+@media all and (max-width:360px) {
+    .I,
+    .II,
+    .I2,
+    .II2,
+    .I3,
+    .II3,
+    .I4,
+    .II4{
+        height: 55px;
+        margin-top: -5rem;
+        margin-left: 7rem;
+        position: relative;
+        top: -0.5rem;
+    }
+    .II,
+    .II2{
+        top: -21rem;
+    }
+    .I2{
+        top: -2rem;
+    }
+    .II3{
+        top: -17.5rem;
+    }
+    .II4{
+        top: -27rem;
+    }
+    .firstqa,
+    .firstaq,
+    .secondqa,
+    .secondaq,
+    .thirdqa,
+    .thirdaq,
+    .fourthaq,
+    .fourthqa{
+        width: 26rem;
+        height: 100%;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+    .firstq,
+    .firsta,
+    .secondq,
+    .seconda,
+    .thirdq,
+    .thirda,
+    .fourthq,
+    .fourtha{
+        font-size: 5rem;
+    }
+    .firstq-text,
+    .secondq-text,
+    .thirdq-text,
+    .fourthq-text{
+        margin-left: 10rem;
+        margin-top: -5.5rem;
+    }
+    .firsta-text,
+    .seconda-text,
+    .thirda-text,
+    .fourtha-text{
+        margin-left: 10rem;
+        margin-top: -5.5rem;
+        font-size: 1.5rem;
+    }
+}

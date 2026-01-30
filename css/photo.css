@@ -1,0 +1,64 @@
+.photo__label{
+    display: inline-block;
+    font-family: var(--primary-font);
+    color: #000;
+    font-size: 2.5rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    text-align: right;
+    width: 57rem;
+    margin-top: 2rem;
+}
+
+.photo__text-field{
+    width: 33rem;
+    height: 3.3rem;
+    outline: 3px solid #000;
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+}
+
+.photo__text-field-top{
+    margin-top: 10rem;
+}
+
+.photo__submit{
+    width: 25rem;
+    height: 5.4rem;
+    background-color: #F5EBC1;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    margin-left: 62rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+@media all and (max-width:360px) {
+    .photo__submit{
+        margin: 0 auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 9rem;
+        width: 15rem;
+        font-size: 2rem;
+    }
+    .photo__label{
+        font-size: 1.8rem;
+        margin-left: -4rem;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .photo__text-field{
+        width: 20rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        margin-left: 6rem;
+    }
+    .photo__text-field-email{
+        margin: 0 auto;
+        margin-left: 6rem;
+    }
+}

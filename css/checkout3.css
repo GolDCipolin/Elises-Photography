@@ -1,0 +1,474 @@
+.top-text3{
+    font-family: var(--primary-font);
+    position: relative;
+    margin-left: -5rem;
+}
+
+.info3{
+    color: #000;
+    top: 5.5rem;
+    position: inherit;
+    left: 50rem;
+    width: 100rem;
+}
+
+.pay{
+    margin-left: -5rem;
+    margin-top: 10rem;
+}
+
+.text-rest3{
+    color: #00000088;
+    margin-left: 92.5rem;
+}
+
+.big-box{
+    width: 48.3rem;
+    height: 36.1rem;
+    outline: 3px solid #000;
+    font-family: var(--primary-font);
+    color: #000;
+    margin-left: 20rem;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    margin-bottom: 10rem;
+}
+
+.t_basket{
+    font-family: var(--primary-font);
+    color: var(--tertiary-colour);
+    font-size: 4.8rem;
+    position: absolute;
+    bottom: 30rem;
+    margin-left: 20rem;
+}
+
+.basket{
+    width: 37rem;
+    height: 42.9rem;
+    border: 3px solid #000;
+    position: absolute;
+    margin-left: 90rem;
+    margin-top: -47rem;
+}
+
+.image1{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+.image2{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.image3{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.image4{
+    width: 14.4rem;
+    height: 14.4rem;
+    outline: 2px solid #747A87;
+    box-shadow: 4px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.contact,
+.ship{
+    font-size: 2.5rem;
+}
+
+.e_address,
+.d_address{
+    font-size: 2.4rem;
+}
+
+.change,
+.change2{
+    width: 10.3rem;
+    height: 4.5rem;
+    background-color: #C7B17588;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.change_text,
+.change_text2{
+    position: relative;
+    top: 0.5rem;
+}
+
+.line{
+    width: 44rem;
+    height: 3px;
+    background-color: var(--tertiary-colour);
+    position: relative;
+    bottom: 3rem;
+    left: 2rem;
+}
+
+.contact,
+.e_address{
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+
+.change{
+    position: relative;
+    left: 37rem;
+    bottom: 10rem;
+}
+
+.s_text{
+    position: relative;
+    left: 1rem;
+    bottom: 4rem;
+}
+
+.change2{
+    position: relative;
+    left: 36rem;
+    bottom: 11.5rem;
+}
+
+.free_d{
+    width: 48.3rem;
+    height: 7.7rem;
+    background-color: #F5EBC188;
+    outline: 3px solid #000;
+    font-family: var(--primary-font);
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    color: #000;
+    font-size: 3.6rem;
+    margin: 0 auto;
+}
+
+.free_text{
+    position: relative;
+    left: 8rem;
+    top: 1.5rem;
+}
+
+.free_delivery{
+    width: 4.1rem;
+    height: 4.1rem;
+    position: relative;
+    bottom: 6.5rem;
+    left: 1.5rem;
+}
+
+.line2{
+    width: 44rem;
+    height: 3px;
+    background-color: var(--tertiary-colour);
+    position: relative;
+    top: 10rem;
+    left: 2rem;
+}
+
+.delivery{
+    position: relative;
+    bottom: 9rem;
+    left: 1.5rem;
+}
+
+.d_time{
+    position: relative;
+    bottom: 10rem;
+    left: 1.5rem;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #F5EBC188;
+    background-image: url(../images/paypal.png);
+    cursor: pointer;
+    padding: 18px;
+    width: 6.8rem;
+    height: 6.8rem;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 55rem;
+  }
+
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    outline: 3px solid #000;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    overflow: hidden;
+    display: none;
+    width: 50.8rem;
+    height: 16.6rem;
+    background-color: #F5EBC188;
+    outline: 3px solid #000;
+    position: absolute;
+    margin-left: 4rem;
+}
+
+.paypal__text-field,
+.card__text-field{
+    background-color: transparent;
+    outline: 3px solid #000;
+    width: 33rem;
+    height: 3.3rem;
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 2rem;
+    position: relative;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+.paypal__label,
+.card__label{
+    font-size: 2.4rem;
+    color: black;
+    font-family: var(--primary-font);
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    display: inline-block;
+    width: 10rem;
+    text-align: left;
+
+}
+
+.paypal{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.credit-card{
+    background-color: #F5EBC188;
+    background-image: url(../images/card.png);
+    cursor: pointer;
+    padding: 18px;
+    width: 6.8rem;
+    height: 6.8rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 50rem;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .credit-card:hover {
+    outline: 3px solid #000;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content-card {
+    overflow: hidden;
+    display: none;
+    width: 53.2rem;
+    height: 26.1rem;
+    background-color: #F5EBC188;
+    outline: 3px solid #000;
+    margin-left: 94rem;
+    position: absolute;
+}
+
+.card__label{
+    margin-left: 3rem;
+}
+
+.credit-card{
+    margin-left: 87rem;
+}
+
+
+
+.photo__text-field{
+    width: 33rem;
+    height: 3.3rem;
+    outline: 3px solid #000;
+    background-color: #F5EBC188;
+    font-size: 2.5rem;
+    font-family: var(--primary-font);
+}
+
+.photo__text-field-email{
+    margin-top: 10rem;
+}
+
+.photo__submit{
+    width: 25rem;
+    height: 5.4rem;
+    background-color: #F5EBC188;
+    font-family: var(--primary-font);
+    font-size: 2.4rem;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    margin-left: 58rem;
+    margin-bottom: 5rem;
+    margin-top: 30rem;
+}
+
+.photo{
+    position: relative;
+    left: 5rem;
+    bottom: 7rem;
+}
+
+.cost{
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 3.6rem;
+    position: absolute;
+    margin-left: 3rem;
+    bottom: 32rem;
+    text-decoration: underline black;
+}
+
+@media all and (max-width:360px){
+    .top-text{
+        margin: 0 auto;
+        position: absolute;
+        margin-left: -50rem;
+        font-size: 1.5rem;
+    }
+    .info{
+        margin-top: -2rem;
+        margin-left: 1rem;
+        width: 25rem;
+    }
+    .text-rest{
+        text-align: center;
+        margin-top: 3.5rem;
+        margin-left: 76.5rem;
+    }
+    .big-box{
+        width: 30rem;
+        height: 35rem;
+        position: absolute;
+        margin-left: 1.5rem;
+        margin-top: 10rem;
+    }
+    .contact,
+    .e_address,
+    .ship,
+    .d_address,
+    .delivery,
+    .d_time{
+        font-size: 2rem;
+        top: 0;
+    }
+    .delivery,
+    .d_time{
+        top: -5rem;
+    }
+    .line,
+    .line2{
+        width: 26rem;
+    }
+    .change,
+    .change2{
+        left: 15rem;
+        width: 8rem;
+        height: 3.5rem;
+        font-size: 2rem;
+    }
+    .change{
+        left: 21rem;
+    }
+    .change2{
+        top: -9rem;
+        left: 20rem;
+    }
+    .basket{
+        width: 30rem;
+        height: 40rem;
+        margin: 0 auto;
+        margin-top: 50rem;
+        margin-left: 1.3rem;
+    }
+    .cost,
+    .t_basket{
+        font-size: 3rem;
+    }
+    .t_basket{
+        bottom: 32rem;
+        margin-left: 19rem;
+    }
+    .image1,
+    .image2,
+    .image3,
+    .image4{
+        width: 11rem;
+        height: 11rem;
+        margin-left: 2.5rem;
+    }
+    .collapsible{
+        margin: 0 auto;
+        margin-top: 95rem;
+        margin-left: 13rem;
+    }
+    .content{
+        margin-top: 102rem;
+        margin-left: 1.5rem;
+        width: 30rem;
+        height: 25rem;
+    }
+    .credit-card{
+        margin-top: 110rem;
+        margin-left: 13rem;
+    }
+    .content-card{
+        margin-top: 117rem;
+        margin-left: 1.2rem;
+        width: 30rem;
+        height: 43rem;
+    }
+    .paypal__label,
+    .card__label{
+        font-size: 2rem;
+    }
+    .paypal__text-field,
+    .card__text-field{
+        width: 20rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+
+    .photo__submit{
+        margin: 0 auto;
+        margin-bottom: 10rem;
+        margin-top: 165rem;
+        margin-left: 4rem;
+    }
+}
